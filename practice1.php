@@ -4,9 +4,8 @@ function sum($max){
     $result = 0;
     for ($i = 1; $i <= $max; $i ++){
         $result += $i;
-        
-}
-return $result;
+    }
+    return $result;
 }
 echo sum(100);
 echo"\n";
@@ -36,8 +35,9 @@ echo "\n";
 function multiple($i){
     for ($i =1; $i <= $max; $i++){
     $result = $i * 2;
-}
-return $result;
+        
+    }
+    return $result;
 }
 echo multiple($i);
 echo"\n";
@@ -47,7 +47,7 @@ echo"\n";
 function add($a, $b){
     $addition = ($a + $b)
     return $addition;
-}
+    }
 echo $add;
 echo"\n";
 ?>
