@@ -58,10 +58,10 @@ function aug($arr){
    $augment *= ($arr);
    
     $arr = array( 1,3,5,7,9);{
-    for ( $arr = 0; $arr = 4; $arr++ )
+        for ( $arr = 0; $arr = 4; $arr++ )
     }
     return $augment
-}
+} 
 
 
     
