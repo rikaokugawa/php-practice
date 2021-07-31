@@ -2,16 +2,16 @@
 if ($name = '奥川利佳'){
     echo "私はあなたの名前です。";
   } else {
-    echo "あなたの名前ではありません。";
+      echo "あなたの名前ではありません。";
   }
   echo"\n";
   
   
   for($i = 1; $i <= 10000; $i++ ) {
-  $total += $i;
+    $total += $i;
   }
     echo $total;
-  echo"\n";
+    echo"\n";
   
   
   $fruits = array("orange", "strawberry", "banna", "papaya", "watermelon");
@@ -22,9 +22,9 @@ if ($name = '奥川利佳'){
     
     
   for($i = 1; $i <= 100;$i++){
-  if($i % 5 ==0)
-  echo $i;
-  echo "\n";
+    if($i % 5 ==0)
+    echo $i;
+    echo "\n";
   
   }
   

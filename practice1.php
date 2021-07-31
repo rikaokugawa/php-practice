@@ -34,9 +34,44 @@ echo "\n";
 
 <?php
 function multiple($i){
-    $result = $i*2;
+    for ($i =1; $i <= $max; $i++){
+    $result = $i * 2;
 }
 return $result;
-echo multiple(5);
+}
+echo multiple($i);
 echo"\n";
+?>
+
+<php?
+function add($a, $b){
+    $addition = ($a + $b)
+    return $addition;
+}
+echo $add;
+echo"\n";
+?>
+    
+<php?
+
+function aug($arr){
+   $augment *= ($arr);
+   
+    $arr = array( 1,3,5,7,9);{
+    for ( $arr = 0; $arr = 4; $arr++ )
+    }
+    return $augment
+}
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+
 
